@@ -1,0 +1,3 @@
+INSERT INTO klient(id_klient, imie, nazwisko, ulica, numer, kod, miasto, telefon) VALUES(121, 'Adam', 'Cichy', 'Korzenna', '12', '00-950', 'Warszawa', '123-454-321');
+INSERT INTO samochod(id_samochod, marka, data_prod, kolor, poj_silnika, przebieg) VALUES(50, 'skoda', DATETIME('2012-09-01'), 'srebrny', 1896, 5000);
+INSERT INTO pracownik(imie, nazwisko, data_zatr, dzial, stanowisko, pensja, dodatek, id_miejsce, telefon) VALUES('Alojzy', 'Mikos', DATETIME('2010-08-11'), 'zaopatrzenie', 'magazynier', 3000, 50, 1, '501-501-501');
