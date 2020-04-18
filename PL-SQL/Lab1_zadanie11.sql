@@ -1,0 +1,10 @@
+SET SERVEROUTPUT ON
+
+DECLARE
+	v_a NUMBER(1) := 6;
+	v_sqrt_3 CONSTANT NUMBER(4, 3) := 1.732;
+	
+BEGIN
+	DBMS_OUTPUT.PUT_LINE(POWER(v_a, 2)*v_sqrt_3/4);
+	
+END;
